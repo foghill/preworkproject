@@ -1,5 +1,3 @@
-//Matrix from Codepen
-
 const canvas = document.getElementById('Matrix');
 const context = canvas.getContext('2d');
 
@@ -41,5 +39,3 @@ const draw = () => {
 };
 
 setInterval(draw, 30);
-
-//end of Matrix
